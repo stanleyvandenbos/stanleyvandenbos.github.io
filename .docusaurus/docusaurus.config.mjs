@@ -44,7 +44,7 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "Stanley.gg",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -62,8 +62,18 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "to": "/writeups",
+          "label": "Writeups",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/stanleyvandenbos/stanleyvandenbos.github.io",
           "label": "GitHub",
+          "position": "right"
+        },
+        {
+          "href": "https://linkedin.com/in/stanleyvandenbos",
+          "label": "LinkedIn",
           "position": "right"
         }
       ],
