@@ -12,7 +12,8 @@ export default {
   "organizationName": "stanleyvandenbos",
   "projectName": "stanleyvandenbos.github.io",
   "deploymentBranch": "deployment",
-  "onBrokenLinks": "throw",
+  "trailingSlash": false,
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
