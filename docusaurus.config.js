@@ -79,9 +79,15 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/writeups', label: 'Writeups', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/stanleyvandenbos/stanleyvandenbos.github.io',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://linkedin.com/in/stanleyvandenbos',
+            label: 'LinkedIn',
             position: 'right',
           },
         ],
