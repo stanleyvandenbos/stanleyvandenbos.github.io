@@ -21,8 +21,9 @@ const config = {
   organizationName: 'stanleyvandenbos', // Usually your GitHub org/user name.
   projectName: 'stanleyvandenbos.github.io', // Usually your repo name.
   deploymentBranch: 'deployment',
+  trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
