@@ -11,6 +11,7 @@ export default {
   "baseUrl": "/",
   "organizationName": "stanleyvandenbos",
   "projectName": "stanleyvandenbos.github.io",
+  "deploymentBranch": "deployment",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
